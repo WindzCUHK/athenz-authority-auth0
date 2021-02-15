@@ -28,7 +28,7 @@
   <description>Athenz Yahoo Server OAuth2 access token implementation for Auth0</description>
 
   <properties>
-    <athenz.version>1.9.29</athenz.version>
+    <athenz.version>1.10.4</athenz.version>
     <jjwt.version>0.11.2</jjwt.version>
     <testng.version>7.3.0</testng.version>
     <mockito.version>3.7.7</mockito.version>
@@ -192,16 +192,5 @@
       </plugin>
     </plugins>
   </reporting>
-
-  <repositories>
-    <repository>
-      <snapshots>
-        <enabled>false</enabled>
-      </snapshots>
-      <id>bintray-yahoo-maven</id>
-      <name>bintray</name>
-      <url>https://yahoo.bintray.com/maven</url>
-    </repository>
-  </repositories>
 
 </project>
